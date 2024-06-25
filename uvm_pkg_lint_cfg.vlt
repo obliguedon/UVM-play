@@ -1,0 +1,7 @@
+`verilator_config
+lint_off -file "*/uvm-verilator/*"
+lint_off -rule SYMRSVDWORD -file "*/uvm-verilator/*"
+lint_off -rule CASEINCOMPLETE -file "*/uvm-verilator/*"
+lint_off -rule VARHIDDEN -file "*/uvm-verilator/*"
+lint_off -rule UNUSEDSIGNAL -file "*/uvm-verilator/*"
+lint_off -rule CONSTRAINTIGN -file "*/uvm-verilator/*"
