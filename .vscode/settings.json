@@ -1,0 +1,8 @@
+{
+    "verilog.linting.linter": "verilator",
+    "verilog.linting.verilator.includePath": [
+        "./uvm-verilator/src",
+        "./verif/hello_world/testbench"
+    ],
+    "verilog.linting.verilator.arguments": "./uvm-verilator/src/uvm_pkg.sv ./src/verif/hello_world/testbench/env.sv"
+}
