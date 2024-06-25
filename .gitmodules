@@ -1,0 +1,4 @@
+[submodule "uvm-verilator"]
+	path = uvm-verilator
+	url = https://github.com/antmicro/uvm-verilator.git
+	branch = current-patches
